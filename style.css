@@ -1,0 +1,63 @@
+input {
+    display: block;
+    border: none;
+    background: #0000000e;
+    padding: 10px 20px;
+    border-bottom: 2px solid #777;
+    border-radius: 3px;
+    transition: all 1s !important;
+    margin: 5px auto;
+}
+*{
+    transition: all 1s;
+}
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #fff;
+}
+form{
+    position: relative;
+}
+#loading {
+    position: absolute;
+    width: 30px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    transform: scale(0);
+}
+
+#members {
+    padding: 20px 0px;
+}
+
+#members .singleMember {
+    background: #444;
+    overflow: hidden;
+    padding: 0px 20px;
+    margin: 5px 0px;
+}
+
+#members .singleMember p {
+    font-size: 20px;
+    width: max-content;
+    float: left;
+    padding: 5px;
+    margin: 0px;
+    position: relative;
+}
+
+#members .singleMember p.memberName {
+    width: 90%;
+    text-align: left;
+    color:yellow;
+}
+
+#members .singleMember p.memberRemove {
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
